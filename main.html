@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Pilha e Fila</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <section>
+        <h1>Simulador de Pilha</h1>
+        <button onclick="inserirNumeroAleatorioPilha()">Inserir Número Aleatório</button>
+        <br>
+        <button onclick="inserirDezNumerosAleatoriosPilha()">Inserir 10 Números Aleatórios</button>
+        <br>
+        <button onclick="removerUltimo()">Remover Último</button>
+        <br>
+        <button onclick="removerDezNumerosAleatoriosPilha()">Remover 10 Números Aleatórios</button>
+        <br>
+        <button onclick="removerTodos()">Remover Todos</button>
+        <div id="pilha"></div>
+    </section>
+
+    <section>
+        <h1>Simulador de Fila</h1>
+        <button onclick="inserirNumeroAleatorioFila()">Inserir Número Aleatório</button>
+        <br>
+        <button onclick="inserirDezNumerosAleatoriosFila()">Inserir 10 Números Aleatórios</button>
+        <br>
+        <button onclick="removerPrimeirosDez()">Remover 10 Primeiros</button>
+        <Br>
+        <button onclick="removerPrimeiroDaFila()">Remover Primeiro</button>
+        <br>
+        <button onclick="removerTudoDaFila()">Remover Tudo</button>
+        <div id="fila"></div>
+    </section>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
